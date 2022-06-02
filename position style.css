@@ -144,19 +144,24 @@ time, mark, audio, video {
 .items_block{
     width: 100%;
     margin: auto;
-    display: inline-table;
-   
+    
+    clear: both;
+    display: table;
 
 }
 .single_item_block{
-    background-color: #666666;
-    margin: 10px;
-    width: 22%;
-    display: inline-block;
-    vertical-align: top; 
+    
+    width: 25%;
+    float: left;   
     position: relative; 
     box-sizing: border-box; 
- 
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.test{
+    background-color: #3230308d;
 }
 
 .photo_block{
@@ -179,6 +184,8 @@ time, mark, audio, video {
 }
 
 .item_price{
+    margin: auto;
+    width: 80%;
     color: white;
     clear: both;
     display: table;
@@ -192,6 +199,7 @@ time, mark, audio, video {
 
 .uah{
     float: right;
+    
 }
 
 .buttom_block{
@@ -226,3 +234,4 @@ time, mark, audio, video {
    margin: 5px 0;
    
 }
+
