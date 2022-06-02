@@ -49,10 +49,17 @@ time, mark, audio, video {
 
 .top_list li{
     padding: 20px;
+    
 }
+
+.top_list li a{
+    text-decoration: none;
+    color: #666666;
+}
+
 .cat_menu_block{
     
-    background-color: #666666;
+    background-color: #3230308d;
     width: 75%;
     margin: auto;
     
@@ -68,8 +75,6 @@ time, mark, audio, video {
     padding: 30px;
     
     
-    
-    
 }
 .logo{
     color: white;
@@ -80,7 +85,6 @@ time, mark, audio, video {
 
 .logo_text{
     color: #844CD4;
-    background-color: white;
 }
 
 .menu_list{
@@ -102,7 +106,17 @@ time, mark, audio, video {
     margin: auto;
     margin-left: 50px;
     font-size: x-large; 
+    text-transform: uppercase;
+    
 }
+
+.cat_menu_list li a{
+    text-decoration: none;
+    color: #666666;
+}
+
+
+
 .popular_items_block{
     width: 75%;
     margin: auto;
@@ -131,22 +145,27 @@ time, mark, audio, video {
     width: 100%;
     margin: auto;
     display: inline-table;
-    align-content: space-between;
+   
 
 }
 .single_item_block{
     background-color: #666666;
     margin: 10px;
-    width: 18%;
+    width: 22%;
     display: inline-block;
     vertical-align: top; 
-    position: relative;  
+    position: relative; 
+    box-sizing: border-box; 
  
 }
 
 .photo_block{
     text-align: center;
     
+}
+
+.photo_block img{
+    width: 100%;
 }
 
 .description_block{
@@ -161,6 +180,8 @@ time, mark, audio, video {
 
 .item_price{
     color: white;
+    clear: both;
+    display: table;
     
 }
 
@@ -174,14 +195,13 @@ time, mark, audio, video {
 }
 
 .buttom_block{
-    margin: 60px 10px 10px 10px;
-
-}
-
-.button{
     
+    padding-top: 15px;
     text-align: center;
+
 }
+
+
 
 .button_buy{
     background-color: #844CD4;
@@ -190,6 +210,7 @@ time, mark, audio, video {
     padding: 10px 50px;
     border-radius: 35px;
     border: none;
+    width: 80%;
     
 }
 
