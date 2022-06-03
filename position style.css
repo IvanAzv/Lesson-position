@@ -107,13 +107,16 @@ time, mark, audio, video {
     margin-left: 50px;
     font-size: x-large; 
     text-transform: uppercase;
-    position: relative;
       
 }
 
 .cat_menu_list li a{
     text-decoration: none;
     color: #666666;
+}
+
+.mac{
+    position: relative;
 }
 
 .mac ::before{
